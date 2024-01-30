@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header> Tic-Tac-Toe Game</header>
+    <div class='flex-box'> 
+    <button id = "reset-button" onclick = "restart()"> Restart game</button>
+    <div>
+    <div class='grid-container'> 
+        <button onclick = "placeMove(0, 0)" class='grid-item'> </button>
+        <button onclick = "placeMove(0, 1)" class='grid-item'></button>
+        <button onclick = "placeMove(0, 2)" class='grid-item'></button>
+        
+    </div>
+    <div class='grid-container'>
+        <button onclick = "placeMove(1, 0)" class='grid-item'> </button>
+        <button onclick = "placeMove(1, 1)" class='grid-item'></button>
+        <button onclick = "placeMove(1, 2)" class='grid-item'></button>
+    </div>
+    <div class='grid-container'>
+        <button onclick = "placeMove(2, 0)" class='grid-item'> </button>
+        <button onclick = "placeMove(2, 1)" class='grid-item'> </button>
+        <button onclick = "placeMove(2, 2)" class='grid-item'></button>
+    </div>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
